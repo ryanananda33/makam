@@ -1,0 +1,140 @@
+/* Reset Default Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Main Section */
+main {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.produk {
+    text-align: center;
+}
+
+.produk h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.produk-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produk-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.produk-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.produk-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.produk-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.produk-item .harga {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.produk-item button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.produk-item button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Styling untuk Alamat dan WhatsApp di Footer */
+footer .row {
+    margin-bottom: 20px;
+}
+
+footer .btn {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+footer .btn i {
+    margin-right: 8px;
+}
